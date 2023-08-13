@@ -15,6 +15,7 @@ int main(void)
 	int c2;
 	int f2;
 	int i2;
+
 	while (c <= 98)
 
 	{
