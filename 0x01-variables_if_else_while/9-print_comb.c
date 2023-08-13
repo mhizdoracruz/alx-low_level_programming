@@ -12,10 +12,10 @@ int main(void)
 
 	while (c < 10)
 	{
-		putchar(c + '0');
+		putchar(48 + c);
+		if (c != 9)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(',');
 			putchar(' ');
 		}
 		c++;
