@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - the main function
+ * _islower - This will print the lower
  *
- * Return: always return 0
+ * Return: This will return 0 or 1
  */
 
 int _islower(int c)
 {
-	int r;
-
-	r = _islower(n);
-	_putchar(r + '0');
-	_putchar('\n');
-
-	return (0);
+	if (c >= 'a' && c <= 'z');
+	return (1);
+	else
+		return (0);
 }
+
+#endif
