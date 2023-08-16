@@ -7,19 +7,13 @@
  * Return: always return 0
  */
 
-int main(void)
+int _islower(int c)
 {
-	char character;
+	int r;
 
-	printf("Enter a character: ");
-	scanf("%c", &character);
-	if (_islower(character))
-	{
-		printf("The character is lowercase.\n");
-	}
-	else
-	{
-		printf("The character is not lowercase.\n");
-	}
+	r = _islower(n);
+	_putchar(r + '0');
+	_putchar('\n');
+
 	return (0);
 }
