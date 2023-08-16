@@ -2,9 +2,10 @@
 #define MAIN_H
 #include <unistd.h>
 
-int _islower(int c)
+int main(void)
 {
-	return (c >= 'a' && c <= 'z');
+	_islower('H');
+	return (0);
 }
 
 #endif

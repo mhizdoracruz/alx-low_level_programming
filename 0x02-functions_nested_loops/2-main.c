@@ -2,9 +2,10 @@
 #define MAIN_H
 #include <unistd.h>
 
-int print_alphabet_x10(void)
+int main(void)
 {
-	return 0;
+	print_alphabet_x10();
+	return (0);
 }
 
 #endif
