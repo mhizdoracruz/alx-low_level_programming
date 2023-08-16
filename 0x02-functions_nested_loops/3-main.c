@@ -1,9 +1,11 @@
-#ifndef MAIN_H
-#define MAIN_H
 #include "main.h"
-#include <unistd.h>
 
-int _islower(int c)
+/**
+ * main - check the code.
+ *  Return: Always 0.
+ */
+
+int main(void)
 {
 	 int r;
 
@@ -17,5 +19,3 @@ int _islower(int c)
 	  
 	  return (0);
 }
-
-#endif
