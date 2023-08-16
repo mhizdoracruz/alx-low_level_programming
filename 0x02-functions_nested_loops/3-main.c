@@ -2,9 +2,9 @@
 #define MAIN_H
 #include <unistd.h>
 
-int print_alphabet_x10(void)
+int _islower(int c)
 {
-	return 0;
+	return (c >= 'a' && c <= 'z');
 }
 
 #endif
