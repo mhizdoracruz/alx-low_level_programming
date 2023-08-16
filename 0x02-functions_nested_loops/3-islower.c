@@ -3,6 +3,8 @@
 /**
  * _islower - This will print the lower
  *
+ * @c: The parameter
+ *
  * Return: This will return 0 or 1
  */
 
