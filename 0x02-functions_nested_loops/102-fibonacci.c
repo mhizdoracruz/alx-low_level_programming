@@ -8,12 +8,20 @@
 
 int main(void)
 {
-	int c;
+	int i = 0;
+	long int a = 0, b = 1, next;
 
-	for (c = 1; c <=50 c++)
+	while (i < 50)
 	{
-		putchar('0' + c);
-		putchar(' ');
+		next = a + b;
+		a = b;
+		b = next;
+		printf("%lu", next);
+		if (i < 49)
+		{
+			printf(", ");
+		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
