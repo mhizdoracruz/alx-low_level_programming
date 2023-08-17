@@ -23,6 +23,11 @@ void times_table(void)
 			{
 				_putchar('0' + result);
 			}
+			else if (result < 10)
+			{
+				putchar(' ');
+				putchar('0' + result);
+			}
 			else
 			{
 				_putchar('0' + (result / 10));
