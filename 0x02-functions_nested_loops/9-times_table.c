@@ -25,15 +25,15 @@ void times_table(void)
 			}
 			else if (result < 10)
 			{
-				putchar(' ');
-				putchar('0' + result);
+				_putchar(' ');
+				_putchar('0' + result);
 			}
 			else
 			{
 				_putchar('0' + (result / 10));
 				_putchar('0' + (result % 10));
 			}
-			if (j != 9)
+			if (j < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
