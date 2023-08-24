@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 /**
- * cap_string - Check code
+ * is_separator - check code
  *
- * @str: Pointer
+ * @c: character
  *
  * Return: the string str
  */
@@ -25,7 +25,13 @@ bool is_separator(char c)
 	}
 	return (false);
 }
-
+/**
+ * cap_string - check the code
+ *
+ * @str: pointer
+ *
+ * Return: return str
+ */
 char *cap_string(char *str)
 {
 	bool new_word = true;
