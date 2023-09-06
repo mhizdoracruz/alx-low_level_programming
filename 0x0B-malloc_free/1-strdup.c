@@ -19,9 +19,9 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	if (duplicate == NULL)
-        {
-                return (NULL);
-        }
-	strcpy (duplicate, str);
+	{
+		return (NULL);
+	}
+	strcpy(duplicate, str);
 	return (duplicate);
 }
