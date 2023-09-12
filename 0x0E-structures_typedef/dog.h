@@ -20,7 +20,6 @@ struct dog
 /**
  * dog_t - New name for the type struct dog
  */
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
